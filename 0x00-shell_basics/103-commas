@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1a | { echo -n "./,../,"; grep '^[0-9A-Za-z]' | sort -f | tr '\n' ','; echo; }
+cat
