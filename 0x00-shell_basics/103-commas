@@ -1,3 +1,0 @@
-#!/bin/bash
-printf "./,../,"; ls -1ap | grep -v '/$' | grep '^[0-9A-Za-z]' | sort -f | tr '\n' ',' | sed 's/,$/\n/'
-
